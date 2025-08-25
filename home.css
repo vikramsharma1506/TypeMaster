@@ -1,0 +1,130 @@
+body {
+    font-family: 'Caveat', cursive;
+    margin: 0;
+
+    background-color: #2d303e; 
+    color: #04364A; 
+    background-image: url(images/img.png);
+
+}
+
+
+#maint {
+    text-align: center;
+    font-size: 24px;
+    padding: 50px 20px;
+    color: rgb(147 144 144); 
+    font-family: 'Lobster', sans-serif;
+}
+
+.rec {
+    width: 200px;
+    height: 50px;
+    border-radius: 29px;
+    border: 4px solid #f2777a; 
+    background-color: #2d303e;
+    color: white; 
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    
+}
+
+.rec:hover {
+    background-color: #f2777a; 
+}
+
+.typing-tips {
+    text-align: center;
+    padding: 1%;
+    background-color: rgb(147 144 144);
+    padding-bottom: 30px;
+    font-family: 'Lobster Two', sans-serif;
+    border: solid 5px #f2777a;
+    border-radius: 25px;
+    margin: 0 auto;
+    max-width: 600px; 
+}
+
+
+.typing-tips::before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+h2 {
+    color: #04364A;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    color: #2d303e; 
+    padding: 10px 0;
+    border-bottom: 1px solid #DAFFFB; 
+}
+
+
+
+.grey {
+    color: #f2777a; 
+}
+
+.typer {
+    color: #f2777a;
+  padding: 30px;
+  font-size:  40px;
+  font-weight: 500;
+  text-align: center;
+  background-color: #1f212a;
+  font-family:'Lobster', sans-serif;
+  margin: 0px 0px 8px;
+}
+
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #maint {
+        font-size: 20px;
+        padding: 30px 10px;
+    }
+
+    .rec {
+        width: 150px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .typer {
+        font-size: 24px;
+    }
+}
+.button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 60px;
+
+}
+.center{
+    color: #f2777a;
+    font-family: 'Lobster', sans-serif;
+    text-align: center;
+    padding: 30px;
+    padding-top: 40px;
+}
+h1 {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}

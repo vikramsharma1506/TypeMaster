@@ -1,0 +1,177 @@
+
+
+body{
+  font-family: 'Space Grotesk', sans-serif;
+  
+  background: #2d303e;
+  color: #fafafa;
+  background-image: url(images/img.png);
+}
+
+a{
+  color: #415266;
+}
+.yellow{
+  color: #99cc99;
+}
+.correct{
+  color: #29bb89;
+}
+.wrong{
+  color: #e84545;
+  text-decoration: underline;
+}
+.current{
+  color: #eeeeee;
+}
+.center{
+  text-align: center;
+  color: #f2777a;
+}
+.if{
+  display: inline-flex;
+}
+
+.box {
+  max-width: 900px;
+  padding: 0 30px;
+}
+
+#heading{
+  color: #f2777a;
+  padding: 30px;
+  font-size: 2 rem;
+  
+  font-weight: 500;
+  text-align: center;
+  background-color: #1f212a;
+  font-family: 'Lobster', sans-serif;
+}
+.limits-box{
+  text-align: right;
+  margin: 0 35px 0 0 ;
+  font-size: 15px;
+}
+
+.stats{
+  margin: 10px auto 20px auto;
+  color: rgb(147 144 144);
+  
+}
+
+.details{
+  font-size: 6rem;
+}
+.stat-block{
+  padding: 0 30px;
+  min-width: 250px;
+}
+
+@media(max-width: 600px){
+  .details{
+    font-size: 5rem;
+  }
+  .stat-block{
+    min-width: 0;
+  }
+}
+
+.stat-name{
+  font-size: 1rem;
+  position: relative;
+  top: 45px;
+  right: 5px;
+}
+
+.text-display{
+  color: rgb(143 117 117);
+  margin: 0 0 22px 0;
+  font-size: 21px;
+  text-align: left;
+  min-height: 200px;
+}
+
+input:focus, textarea:focus, select:focus, a:focus{
+  outline: 0 ;
+}
+a:focus,a:hover{
+  color: #f2777a;
+  text-decoration: none;
+}
+
+footer{
+  padding-top: 50px;
+  font-size: 16px;
+  font-family: 'Lobster', sans-serif;
+}
+
+.restart-button{
+  padding: 10px;
+}
+
+textarea{
+  background: #1f212a;
+  border: solid, #52575d;
+  border-width: 2px;
+  border-radius: 25px;
+  color: #eeeeee;
+  padding: 10px;
+  font-size: 1.2rem;
+  resize: none;
+  text-align: center;
+  margin-bottom: 15px;
+  
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  align-items: center;
+  border-radius: 25px;
+}
+
+.modal-content {
+  background-color: #2d303e;
+  margin: 15% auto;
+  padding: 30px;
+  border: 1px solid #f2777a;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  border-radius: 25px;
+  color: rgb(147 144 144);
+  padding-bottom: 60px;
+}
+
+.close {
+  color: #29bb89;
+  align-self: flex-end;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #f2777a;
+  text-decoration: none;
+  cursor: pointer;
+}
+.typing-results{
+  padding: 30px;
+}
+.messageTitle{
+  padding: 30px;
+}
+.textDisplay{
+  font-family: 'Russo One', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
